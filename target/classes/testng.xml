@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Suite1">
+    <test name = "test1">
+<!--        <classes>-->
+<!--            <class name = "test1.CalculatorTestSecond"/>-->
+<!--        </classes>-->
+        <groups>
+            <run>
+                <include name="FiveTests"/>
+            </run>
+        </groups>
+            <packages>
+                <package name="FiveTestFromCalculator"/>
+            </packages>
+    </test>
+</suite>
